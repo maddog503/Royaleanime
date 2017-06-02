@@ -1,0 +1,218 @@
+/* clearfix */
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End Clearfix */
+
+a:visited {
+	color: #FFA500;
+}
+
+html {
+	/*background-image: url("http://www.videodownload.com.ar/images/bg.jpg");*/
+	background-color: #EEEEEE;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* Estilo para los tabs */
+#nav {
+	float:left;
+	list-style-type:none;
+	padding-left: 4px;
+	margin: 0px 23px 25px;
+	border-bottom: 1px solid #197EB1;
+	height: 23px;
+	width: 960px;
+}
+
+#nav li.section {
+	float:left;
+	margin-right:1px;
+	text-transform:uppercase;
+	background-image:url(../images/TabBackground.png);
+	background-repeat:repeat-x;
+	border-top: 1px solid #197EB1;
+	border-right: 1px solid #197EB1;
+	border-left: 1px solid #197EB1;
+}
+
+#nav li.section a {
+	display:block;
+	padding:3px 8px 5px;
+	text-decoration:none;
+}
+
+#nav li.section a span {
+	color:white;
+	font-family:Verdana,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	white-space:nowrap;
+}
+
+#nav li.section:hover, #nav li.active {
+	background-color:white;
+	background-image: none;
+}
+
+#nav li.section:hover a span, #nav li.active a span {
+	color:#194B77;
+}
+
+#nav li.active a span {
+	display: block;
+}
+
+#nav li.active a span {
+		height: 15px;
+}
+/* end tabs */
+
+/* estilo para el help */
+.help {
+  background-image:url(../images/TabBackground.png);
+	float:right;
+	height:27px;
+	margin-right:30px;
+	padding:0;
+	text-align: center;
+	width:130px;
+}
+
+.help a {
+  color: white;
+	display:block;
+	font-family:tahoma;
+	font-size:16px;
+	font-weight:bold;
+	padding-top:2px;
+	text-decoration:none;
+}
+
+#instructions {
+   display: none;
+   padding: 10px;
+}
+
+#cboxContent img {
+   display: block;
+   margin: 15px 0px 0px 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h1 {
+   display: block;
+   font-size: 24px;
+   margin-left: 30px;
+}
+
+.paso {
+   margin: 10px 0px 0px 10px;
+}
+/* end help */
+
+/* Estilos generales comunes */
+.clear {
+   clear: both;
+}
+
+#body {
+   padding: 0px 17px 17px 17px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.mainContainer {
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+   width: 1008px;
+   overflow: hidden;
+   padding-bottom: 20px;
+   background: transparent url(../images/backgroundPage.png) repeat-y scroll left top;
+}
+
+.header {
+   margin-right: auto;
+   margin-left: auto;
+   width: 950px;
+   margin-bottom: 10px;
+   text-align: left;
+}
+
+.footer {
+	margin: 0 auto;
+	background-image: url('../images/foot2.png');
+	width: 1008px;
+	height: 67px;
+}
+
+.download {
+   display:block;
+   font-family:tahoma;
+   font-size:11px;
+   font-weight:bold;
+   padding:0 0 0 9px;
+   color:#FFF;
+   margin:10px 0 9px 0;
+}
+
+.mainOuter {
+   border: 1px solid #AACCDD;
+   padding: 1px;
+}
+
+.mainInner {
+   border:1px solid #FFF;
+   background-color:#197EB1;
+}
+
+.mainInner #mediaUrl {
+   vertical-align:middle;
+   font-family:tahoma;
+   font-size:11px;
+   line-height:13px;
+   height:15px;
+   width:500px;
+   border:1px solid #086A9C;
+   padding-top:2px;
+   text-indent:2px;
+   color:#999;
+}
+
+.mainInner #btn {
+   vertical-align:middle;
+   font-family:tahoma;
+   font-size:10px;
+   line-height:13px;
+   padding:0px 0 2px 0;
+   height:22px;
+   width:78px;
+   font-weight:bold;
+   color:#444;
+}
+
+.title {
+   font-weight: bold;
+   font-size: 20px;
+   height: 25px;
+   background-color: #197EB1;
+   color: #FFFFFF;
+}
+
+.relleno {
+   border-bottom: 1px solid #AACCDD;
+   padding-bottom: 1px;
+}
+
+.subBanner {
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 0px;
+	float: left;
+}
+/* fin estilos comunes */

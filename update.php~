@@ -1,0 +1,43 @@
+<?php
+include('config.php');
+	/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*\
+								MODIFICAR DATOS
+	/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+		$dbhost = "localhost";	// SERVIDOR
+		$dbname = "pbeta";	// NOMBRE DE LA BASE DE DATOS
+		$dbuser = "root";	// USUARIO DE LA BASE DE DATOS
+		$dbpass = "marco";	// CONTRASEÑA DE LA BASE DE DATOS
+
+	/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*\
+								NO TOCAR NADA
+	/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+	
+		$link = mysql_connect($dbhost,$dbuser,$dbpass) or die(mysql_error());
+		mysql_select_db($dbname,$link) or die(mysql_error());
+		
+		$sql = "SELECT * FROM p_peliculas";
+		$query = mysql_query($sql,$link) or die(mysql_error());
+		$fecha = time();
+		unset($sql);
+		$i = 1;
+		while($row = mysql_fetch_assoc($query)){
+			$sql[] = "INSERT INTO ms_peliculas (p_titulo, p_seo, p_sinopsis, p_ano, p_genero, p_idioma, p_calidad, p_estreno, p_date, p_online, p_hits, p_votos, p_reports) VALUES ('{$row['p_nombre']}','{$row['p_url']}','{$row['p_sinopsis']}','2011','{$row['p_categoria']}','Español','Full-DVD','0','{$fecha}','{$row['p_mostrar']}','{$row['p_visitas']}','0','0')";
+			$sql[] = "INSERT INTO ms_videos (p_id, v_source, v_titulo, v_online) VALUES ('{$i}','{$row['p_reproductor']}','Película','1')";
+			$foto[] = $row['p_foto'].",".$i;
+			$i++;
+		}
+		unset($link);
+		unset($query);
+		
+		$link = mysql_connect(db_host,db_user,db_pass) or die(mysql_error());
+		mysql_select_db(db_name,$link) or die(mysql_error());
+		
+		foreach($sql as $v){
+			mysql_query($v,$link) or die(mysql_error());
+		}
+		foreach($foto as $f){
+			$f = explode(',',$f);
+			copy($f[0], "files/uploads/".$f[1].".jpg");
+		}
+		exit('CORRECTO!');
+?>

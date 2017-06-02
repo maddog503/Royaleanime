@@ -1,0 +1,177 @@
+.centerContent {
+   width: 620px;
+   float: left;
+   text-align: center;
+   margin-left: 16px;
+}
+
+.banner {
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.rightContent {
+   margin-left: 15px;
+   float: left;
+   width: 310px;
+}
+
+.songs {
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 5px;
+   width: 300px;
+}
+
+.songs a {
+   text-decoration: none;
+   font-family: tahoma;
+   color: #0090C6;
+   font-size: 13px;
+   font-weight: bold;
+}
+
+.songs .esta a {
+   margin: 2px 0px;
+   display: block;
+}
+
+.songs .esta a:hover {
+   background-color: #EDEFF4;
+}
+
+.fbConnectWidgetTopmost {
+   border: 1px solid #AACCDD;
+}
+
+.genericBox {
+   margin-right: auto;
+   margin-left: auto;
+   width: 620px;
+   text-align: center;
+   margin-bottom: 5px;
+}
+
+.innerTitle {
+   text-align: left;
+   font-weight: bold;
+   margin: 5px 470px 0px 15px;
+   width: 110px;
+   border-bottom: 2px solid #197EB1;
+}
+
+.sitios {
+   margin-left: auto;
+   margin-right: auto;
+   width:424px;
+   height:87px;
+   background-image: url('/images/sitios.jpg');
+}
+
+.siteSuport {
+   float: left;
+   width: 81px;
+}
+
+#youtube {
+   margin-top: 26px;
+   margin-left: 5px;
+   height: 27px;
+}
+
+#goear{
+   margin-top: 26px;
+   margin-left: 26px;
+   height: 27px;
+}
+
+#xvideos{
+   margin-top: 27px;
+   margin-left: 36px;
+   height: 27px;
+}
+
+#apple{
+   margin-top: 6px;
+   margin-left: 26px;
+   height: 75px;
+}
+
+
+/************* MARQUESINA *************/
+#marquesina {
+	width: 620px;
+	height: 250px;
+	padding: 1px;
+	overflow: hidden;
+	border:1px solid #969696;
+	margin-bottom: 5px;
+}
+
+#marquesina .topPanelImg {
+	display: block;
+	float: left; 
+	width: 422px;
+	height: 250px;
+}
+
+#marquesina .rightTxt {
+ 	float: left;
+ 	background-color: #000000;
+ 	height: 250px;
+	width: 197px;
+	color: #FFFFFF;
+}
+
+#marquesina .rightTxt .title {
+	margin: 10px 5px 0px 5px;
+	background-color: transparent;
+	font-size: 14px;
+	height: 15px;
+}
+
+#marquesina .rightTxt .title a:hover {
+	text-decoration: none;
+}
+
+#marquesina .rightTxt .description {
+	padding: 5px;
+	font-size: 12px;
+	margin-top: 12px;
+}
+
+#marquesina .topPanel {
+	display: none;
+	z-index: 8;
+    position: absolute;
+}
+
+#marquesina .topPanel.or0 {
+	display: block;
+}
+
+.movieIndex {
+    display: block;
+    height: 20px;
+    left: 460px;
+    top: 225px;
+    position: relative;
+    width: 125px;
+    z-index: 10;
+}
+
+.movieIndex .index {
+	height: 8px;
+	width: 15px;
+	margin-left: 5px;
+	background-color: #838B8B;
+	float: left;
+}
+
+.movieIndex .index:hover {
+	cursor: pointer;
+}
+
+.movieIndex .index.active {
+	background-color: #0090C6;
+}

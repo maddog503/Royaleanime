@@ -1,0 +1,265 @@
+html{-webkit-user-select:none;-moz-user-select:none}
+body{background-color:#EDF1F9;margin-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;cursor:default;outline:none}
+body a{outline:none}body,td,th{font-family:Lucida Sans Unicode,Lucida Grande,sans-serif;font-size:12px;color:#0B0B0B}
+#header{height:235px;width:100%;background-color: ; }.w-fss{position:relative;overflow:hidden;width:550px;height:314px}.w-fss-panes{background-color:#000;position:absolute;left:0;width:550px;height:314px;z-index:1}.w-fss-tmp{position:absolute;top:10000px}.w-fss-pane{position:absolute;width:550px;height:314px;cursor:pointer;overflow:hidden;background-color:#fff}.w-fss-new{position:absolute;display:block;left:0;top:0;z-index:2;background:transparent}.w-fss-image{position:absolute;display:block;left:0;top:0;z-index:1;image-rendering:optimizeQuality;-ms-interpolation-mode:bicubic}.w-fss-descbox{position:absolute;z-index:2;width:510px;height:100px;bottom:0px;padding:5px 20px;color:#fff}.w-fss-translucency{position:absolute;top:0px;left:0px;width:550px;height:110px;background-color:#000;opacity:0.4;filter:alpha(opacity=40);z-index:0}.w-fss-text{position:relative;z-index:1;width:510px;text-shadow:2px 2px 4px #000}.w-fss-seriesname{background-attachment:scroll;background-clip:border-box;background-color:transparent;background-image:none;background-origin:padding-box;border-bottom-width:0px;border-left-width:0px;border-right-width:0px;border-top-width:0px;bottom:auto;color:#fff;cursor:pointer;display:block;font-family:helvetica,arial,sans-serif;font-size:24px;font-style:normal;font-weight:bold;height:30px;line-height:normal;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;outline-color:#fff;outline-style:none;outline-width:0px;overflow-x:visible;overflow-y:visible;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;position:static;text-shadow:#000 2px 2px 4px;vertical-align:baseline;width:510px;z-index:auto}.w-fss-episodename{background-attachment:scroll;background-clip:border-box;background-color:transparent;background-image:none;background-origin:padding-box;border-bottom-width:0px;border-left-width:0px;border-right-width:0px;border-top-width:0px;bottom:auto;color:#fff;cursor:pointer;display:block;font-family:helvetica,arial,sans-serif;font-size:14px;font-style:normal;font-weight:bold;height:16px;line-height:normal;margin-bottom:0px;margin-left:0px;margin-right:115px;margin-top:0px;outline-color:#fff;outline-style:none;outline-width:0px;overflow-x:visible;overflow-y:visible;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;position:static;text-shadow:#000 2px 2px 4px;vertical-align:baseline;width:395px;z-index:auto}.w-fss-description{background-attachment:scroll;background-clip:border-box;background-color:transparent;background-image:none;background-origin:padding-box;border-bottom-width:0px;border-left-width:0px;border-right-width:0px;border-top-width:0px;bottom:auto;color:#fff;cursor:pointer;display:block;font-family:helvetica,arial,sans-serif;font-size:13px;font-style:normal;font-weight:normal;height:32px;line-height:normal;margin-bottom:0px;margin-left:0px;margin-right:115px;margin-top:0px;outline-color:#fff;outline-style:none;outline-width:0px;overflow-x:visible;overflow-y:visible;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;position:static;text-shadow:#000 2px 2px 4px;vertical-align:baseline;width:395px;z-index:auto}a.w-fss-button{position:absolute;right:15px;bottom:25px;width:110px;height:40px;background:transparent url('featured_slideshow.png') no-repeat 0px -80px;z-index:2}a.w-fss-button:hover{background-position:0px 0px;text-decoration:none}a.w-fss-button:active{background-position:0px -40px;text-decoration:none}a.w-fss-button span{position:absolute;top:11px;left:7px;font-size:16px;font-weight:bold;color:#fff;font-family:helvetica,arial,sans-serif}.w-fss-arrow{position:absolute;z-index:2;top:120px;width:75px;height:75px;display:block}.w-fss-arrow .w-fss-arrowimg{position:absolute;display:block;width:23px;height:23px;top:24px;background:transparent url('featured_slideshow.png') no-repeat 0px -120px}.w-fss-leftarrow{left:0px}.w-fss-leftarrow .w-fss-arrowimg{left:5px;background-position:-23px -120px}.w-fss-rightarrow{right:0px}.w-fss-rightarrow .w-fss-arrowimg{right:5px;background-position:-0px -120px}.w-fss-arrow:hover .w-fss-arrowimg{width:46px;height:45px;top:12px}.w-fss-leftarrow:hover .w-fss-arrowimg{left:0px;background-position:-92px -120px}.w-fss-rightarrow:hover .w-fss-arrowimg{right:0px;background-position:-46px -120px}.w-fss-pageindicators{position:absolute;height:13px;width:550px;bottom:6px;left:0;z-index:2}.w-fss-pageindicator{position:absolute;display:block;width:13px;height:13px;background:transparent url('featured_slideshow.png') no-repeat -138px -120px;cursor:pointer}.w-fss-pageindicator-selected{background-position:-151px -120px}.w-fss-links{position:absolute;top:-500px}
+#cb{
+	background-image:url(http://animevision.org/img/coolbg.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:193px
+}
+#hh{width:993px;height:42px;margin-left:auto;margin-right:auto}
+#eih{
+	width:18px;
+	height:42px;
+	background-image:url(http://animevision.org/img/h.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	float:left
+}
+#h{
+	height:42px;
+	width:957px;
+	float:left;
+	background-image:url(http://animevision.org/img/h.png);
+	background-position:bottom;
+	background-repeat: repeat-x;
+}
+#edh{width:18px;height:42px;float:left;background-image:url(http://animevision.org/img/h.png);background-repeat:no-repeat;background-position:top right}h1.title{
+	font-size:11px;
+	font-family:Verdana;
+	text-shadow:#AEFFB3 0px 1px 0px;
+	padding-top:10px;
+	text-align:center;
+	border:0px;
+	margin:0px;
+	font-weight:bold;
+	color:#FFF;
+	overflow:hidden;
+	width:957px;
+	display:block;
+	height:15px
+}h1.title > a{text-decoration:none;color:#07B10A}h1.title > a:hover{text-decoration:underline}
+#l{width:993px;height:90px;margin-top:11px}.a728{width:728px;height:90px;float:left;background-color:rgba(51,51,51,0.3);text-align:center;border-radius:4px}.a160{width:160px;height:600px;background-color:rgba(51,51,51,0.3);text-align:center;border-radius:4px;margin-left:2px}.c{margin-left:auto;margin-right:auto}
+#logo{margin-top:-5px;margin-left:8px;margin-right:5px}
+#mm{width:997px;height:78px;margin-left:auto;margin-right:auto;margin-top:-40px}
+#eim{
+	width:19px;
+	height:78px;
+	background-image:url(http://animevision.org/img/menu.png);
+	background-repeat:no-repeat;
+	background-position:left 6px;
+	float:left
+}
+#m{
+	height:72px;
+	width:959px;
+	float:left;
+	background-image:url(http://animevision.org/img/menu.png);
+	background-position:bottom;
+	font-weight: bold;
+}
+#edm{
+	width:19px;
+	height:78px;
+	float:left;
+	background-image:url(http://animevision.org/img/menu.png);
+	background-repeat:no-repeat;
+	background-position:right 6px
+}ul#uno,ul#dos,ul#i,ul.alfa{list-style:none;margin:0;padding:0;display:block}ul#uno > li,ul#dos > li,ul#i > li{list-style:none;margin:0;padding:0;padding-right:3px;display:block;float:left;height:78px;background-image:url(http://animevision.org/img/d.gif);background-position:right;background-repeat:no-repeat}ul.alfa > li{list-style:none;padding:0;display:block;float:left;margin-left:1px;margin-right:2px;margin-top:2px;margin-bottom:1px}a.let{
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	background-color:#EAFFEB;
+	padding-left:8px;
+	padding-right:7px;
+	padding-top:3px;
+	padding-bottom:0px;
+	font-size:11px;
+	font-family:Verdana;
+	text-shadow:#AEFFB3 0px 1px 0px;
+	text-align:center;
+	font-weight:bold;
+	color:#000;
+	display:block;
+	height:17px;
+	width:auto;
+	text-decoration:none;
+	border-right:1px solid #CAFFCC;
+	border-bottom:1px solid #CAFFCC
+}a.let:hover{background-color:#CAFFCC;-webkit-transition-duration:0.4s;-moz-transition-duration:0.4s;-webkit-transition-property:background-color;-moz-transition-property:background-color}a.menu{
+	height:44px;
+	display:block;
+	margin-top:7px;
+	color:#FFF;
+	display:block;
+	float:left;
+	font-family:Arial;
+	font-size:9px;
+	height:27px;
+	padding-bottom:0px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:17px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:#fff 0px 1px 0px;
+	text-transform:uppercase;
+	vertical-align:baseline;
+	width:inherit;
+}
+#id{width:29px;height:26px;float:left;margin-top:17px;background-image:url(http://animevision.org/img/id.jpg);background-position:top;background-repeat:no-repeat;margin-right:7px;cursor:pointer}
+#id:active{background-position:bottom}ul#dos{display:none}
+#b{padding:0;margin:0;float:right;background-position:top center;height:31px;width:440px;margin-top:13px}
+#q{background-image:url(http://animevision.org/img/input.jpg);border:none 0px;color:#333;float:left;font-family:'Lucida Sans Unicode','Lucida Grande',sans-serif;font-size:12px;height:29px;margin-left:2px;margin-top:0px;outline:none;padding-left:4px;text-shadow:#AEFFB3 0px 1px 0px;width:194px}
+#bb{background-image:url(http://animevision.org/img/but.jpg);background-color:transparent;background-position:left top;border:none;color:#333;float:left;font-size:12px;height:31px;margin-left:3px;margin-top:0px;outline:none;width:51px;cursor:pointer}
+#fbemte{border-top-color:rgb(121,203,253);border-right-color:rgb(121,203,253);border-bottom-color:rgb(121,203,253);border-left-color:rgb(121,203,253);border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;outline-style:none;outline-width:initial;outline-color:initial;height:21px;float:left;border-top-left-radius:4px 4px;border-bottom-left-radius:4px 4px;border-bottom-right-radius:0px 0px;border-top-right-radius:0px 0px;padding-left:3px;width:130px;font-family:'Lucida Sans Unicode','Lucida Grande',sans-serif;color:rgb(51,51,51);text-shadow:rgb(174,221,255) 0px 1px 0px;font-size:12px}
+#fbembo{border-style:initial;border-color:initial;height:25px;width:27px;cursor:pointer;border-right-width:1px;border-right-style:solid;border-right-color:rgb(121,203,253);border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(121,203,253);border-top-width:1px;border-top-style:solid;border-top-color:rgb(121,203,253);border-top-right-radius:4px 4px;border-bottom-right-radius:4px 4px;border-top-left-radius:0px 0px;border-bottom-left-radius:0px 0px;background-color:#51C5FF;background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(rgb(185,232,255)),color-stop(0.5,rgb(43,184,255)),color-stop(0.5,rgb(69,193,255)),to(rgb(69,193,255)));background-attachment:initial;background-origin:initial;background-clip:initial;background-color:initial;color:rgb(255,255,255);text-shadow:rgb(0,180,255) 0px 1px 0px;background-position:initial initial;background-repeat:initial initial}
+#fbembo:hover{background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(rgb(185,232,255)),color-stop(0.5,rgb(43,184,255)),color-stop(0.5,rgb(69,193,255)),to(rgb(69,193,255)))}
+#bb:hover{background-position:left center}
+#bb:active{background-position:left bottom}
+#main{
+	background-image:url(http://animevision.org/img/bgmain.jpg);
+	height:500px;
+	z-index:10;
+	font-weight: normal;
+}
+#mt{background-image:url(http://animevision.org/img/mtop.jpg);background-repeat:no-repeat;width:1005px;height:18px;margin-right:auto;margin-left:auto;margin-top:-5px}
+#mmm{background-image:url(/img/mma.jpg);background-repeat:repeat-y;width:985px;margin-right:auto;margin-left:auto;margin-top:-9px;padding:10px;height:auto !important;clear:both;min-height:400px}.cc{
+	width:975px;
+	height:117px;
+	background-image:url(../img/c.png);
+	display:block;
+	margin-top:-3px;
+	margin-left:5px;
+	margin-right:5px
+}.fleft{float:left}.clear{clear:both}.ctit{
+	height:25px;
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	font-family:Verdana, Geneva, sans-serif;
+	padding-top:13px;
+	text-shadow:#01FF05 0px 1px 0px;
+}.ccon{height:62px;text-align:center;padding-left:20px;padding-right:20px;padding-top:4px}
+#left{width:184px;float:left}
+#mid{float:left;width:554px;padding:2px}
+#right{float:left;width:243px}.cto{
+	background-image:url(http://animevision.org/img/fondotitulo.png);
+	background-repeat:repeat-x;
+	height:23px;
+	text-align:center;
+	color:#E0FCE0;
+        margin-top:15px;
+	font-weight:bold;
+	font-family:Arial;
+	padding-top:13px;
+	text-shadow:#000 0px 1px 0px;
+	font-size:11px;
+	text-transform:uppercase
+}.cbo{background-image:url(http://animevision.org/img/cbo.jpg);background-repeat:repeat-y;padding:5px 10px 0px 10px}.cfo{background-image:url(http://animevision.org/img/cfo.jpg);height:13px;background-repeat:no-repeat}.m_t{background-image:url(http://animevision.org/img/m_t.gif);background-position:center center;height:10px}.m_m{background-image:url(http://animevision.org/img/m_m.gif);padding-left:7px;background-position:center top;padding-right:5px;clear:both;height:auto;float:left}.m_b{background-image:url(http://animevision.org/img/m_b.gif);background-position:center center;height:10px;clear:both}.bl{
+	width:180px;
+	height:296px;
+	background-image:url(http://animevision.org/img/block.gif);
+	background-repeat:no-repeat;
+	float:left
+}.im{margin-left:7px;margin-top:7px;-webkit-box-shadow:#000 0px 1px 2px;-moz-box-shadow:#000 0px 1px 2px}.tt{padding:0;padding-left:5px;padding-top:7px;height:28px;text-align:center}.tt > h1{margin:0;padding:0;text-align:center}.tt > h1 > a{color:#FFF;font-weight:normal;font-family:'Verdana';text-shadow:#000 0px 1px 0px;font-size:11px;text-decoration:none;padding-top:6px;width:170px;height:22px;display:block}.tt > h1 > a:hover{color:#DFF2FF;-webkit-transition-duration:0.4s;-webkit-transition-property:color}.a{
+	width:264px;
+	height:98px;
+	float:left;
+	background-image:url(http://animevision.org/img/n.png);
+	margin:4px 3px 4px 3px
+}.a > a{display:block;width:49px;height:71px;margin-top:13px;margin-left:14px;padding:1px;border:solid 1px #999;float:left}.at{float:left;width:185px;text-align:center;margin-top:14px}.at > a{
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	text-shadow:#D2D2D2 0px 1px 0px;
+	font-size:12px;
+	color:#FFF;
+	font-weight:bold
+}.at > span{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:9px;
+	color:#000000
+}.ad{
+	overflow:hidden;
+	display:block;
+	text-align:justify;
+	line-height:12px;
+	margin-left:5px;
+#fff-space:pre-line;	float:left;
+	width:175px;
+	max-height:55px;
+	color:#fff
+}.dt{
+	width:243px;
+	background-image:url(http://animevision.org/img/fondotitulo.png);
+	background-repeat:repeat-x;
+	color:#E0FCE0;
+        margin-top:15px;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	height:22px;
+	padding-top:13px;
+	text-align:center;
+	text-shadow:#000 0px 1px 0px;
+	text-transform:uppercase
+}.dm{background-image:url(http://animevision.org/img/dm.jpg);background-repeat:repeat-y;width:219px;padding:5px 12px 0px 12px}.dm > ul{list-style:none;padding:0;margin:0;display:block}.dm > ul > li{
+	background-image:url(http://animevision.org/img/botonON.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	display:block
+}.dm > ul > li:hover{background-position:bottom}.dm > ul > li > a{display:block;height:22px;padding-left:18px;padding-top:1px;text-decoration:none;color:#525252;text-shadow:#dfdfdf 0px 1px 0px;background-position:right;background-repeat:no-repeat}
+#holder{overflow:hidden}.swPage > li{background-image:url(http://animevision.org/img/botonON.jpg);background-position:top;background-repeat:no-repeat;display:block}.swPage > li:hover{background-position:bottom}.swPage > li > a{display:block;height:22px;padding-left:18px;padding-top:1px;text-decoration:none;color:#525252;text-shadow:#dfdfdf 0px 1px 0px;background-position:right;background-repeat:no-repeat}
+.swControls{position:relative;float:left;left:50%;margin-top:10px}a.swShowPage{background-color:#999;background-image:url(http://animevision.org/img/pag.gif);background-position:bottom;background-repeat:no-repeat;float:left;height:9px;margin:3px 2px;text-indent:-9999px;width:9px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;outline:none;position:relative;right:50%}a.swShowPage:hover,a.swShowPage.active{background-color:#46A5FB;background-image:url(http://animevision.org/img/pag.gif);background-position:top;background-repeat:no-repeat}
+.anime{background-image:url(http://animevision.org/img/a1.jpg)}.pelicula{background-image:url(http://animevision.org/img/a3.jpg)}.ova{background-image:url(http://animevision.org/img/a2.jpg)}
+.db{background-image:url(http://animevision.org/img/db.jpg);background-repeat:no-repeat;width:243px;height:11px}
+#footer{
+	background-image:url(http://animevision.org/img/f.jpg);
+	background-repeat:repeat-x;
+	width:100%;
+	height:200px;
+	z-index:-10;
+	margin-top:-35px;
+	background-color:#000;
+	margin-bottom:0px
+}
+#f_t{background-image:url(http://animevision.org/img/f1.jpg);width:993px;height:79px;margin-left:auto;margin-right:auto}.tipsy{padding:5px;font-size:11px;opacity:1;filter:alpha(opacity=100);background-repeat:no-repeat;background-image:url(http://animevision.org/img/tipsy.gif)}.tipsy-inner{-moz-border-radius:3px 3px 3px 3px;-webkit-border-radius:3px 3px 3px 3px;background:url(http://animevision.org/img/tipsy.png) repeat-x scroll 0 0 #000;border:1px solid #000;color:#fff;font-weight:bold;max-width:200px;padding:4px 5px;text-align:center;text-shadow:0 1px 1px #000;font-family:Arial}.tipsy-inner{-moz-border-radius:3px;-webkit-border-radius:3px}.tipsy-north{background-position:top center}.tipsy-south{background-position:bottom center}.tipsy-east{background-position:right center}.tipsy-west{background-position:left center}.clt{background-image:url(http://animevision.org/img/cl.gif);background-position:100% 0%;width:652px;height:11px;margin-left:7px}.clm{background-image:url(http://animevision.org/img/cl.gif);width:632px;margin-left:7px;padding-left:10px;padding-right:10px;color:#2C2C2C;font-family:'Lucida Sans Unicode';font-size:13px;letter-spacing:-1px;line-height:22px;text-shadow:#CCC 0px 1px 0px}.clms{color:#07B10A;text-shadow:#AEFFB3 0px 1px 0px}.clb{background-image:url(http://animevision.org/img/cl.gif);background-position:100% 100%;width:652px;height:12px;margin-left:7px}.a300x250{background-image:url(http://animevision.org/img/300x250.gif);width:300px;height:250px;padding:6px;background-repeat:no-repeat;margin-bottom:5px}div.clm > h1{padding:0;margin:0;margin-top:-3px;color:#FFF;background-color:#4CB2E2;padding:5px;font-family:helvetica,arial,sans-serif;font-size:22px;letter-spacing:-1px;font-style:normal;font-weight:bold;width:622px;height:22px;display:block;text-shadow:rgba(0,0,0,0.35) 0px -1px 0px;background-image:url(http://animevision.org/img/at.jpg);-webkit-border-radius:4px;-moz-border-radius:4px;border:1px solid #02A0FF;text-align:center}.truncate_more_link{color:#07B10A;font-family:Arial;font-size:10px;text-decoration:none;text-transform:uppercase}.ii{margin:6px;padding:1px;background-color:#fff;border:1px solid silver;-webkit-border-radius:3px;-moz-border-radius:3px}a.lc{color:#07B10A;text-decoration:none;text-shadow:silver 0px 1px 0px}a.lc:hover{text-decoration:underline}li.lc{font-style:italic;color:#818181;line-height:17px}ul.lc{list-style:square;margin:0}.bs{float:left;height:61px;margin:2px}.clm > h2{margin:0;padding:0;border:0;color:#00C40D;font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;text-shadow:#CBFFB3 0px 1px 0px;font-size:13px;letter-spacing:-1px;margin-left:3px}
+#lcmain{position:relative;margin:5px auto -1px auto;width:632px}
+#lcholder{width:auto;margin:1px;overflow:hidden;position:relative;padding-bottom:10px;list-style:none;padding:0}.swPage > li.lcc,li.lcc{margin:1px}.swPage > li.lcc > a.lcc,a.lcc{background-image:none;background-color:#CBE9F8;padding:2px 7px 7px 7px;overflow:hidden;display:block;font-style:normal;height:18px;-webkit-border-radius:4px;-moz-border-radius:4px;text-decoration:none;color:#1F1F1F;text-shadow:#76C7ED 0px 1px 0px;border-right:1px solid #76C7ED;border-bottom:1px solid #76C7ED;-webkit-transition-duration:0.4s;-webkit-transition-property:background-color color}
+#ftd{width:0px;height:0px}.swPage > li.lccn > a.lccn,a.lccn{background-image:none;background-color:#FAA3A3;padding:2px 7px 7px 7px;overflow:hidden;display:block;font-style:normal;height:18px;-webkit-border-radius:4px;-moz-border-radius:4px;text-decoration:none;color:#000;text-shadow:rgba(0,0,0,0.1);border-right:1px solid #CE0A0A;border-bottom:1px solid #CE0A0A;-webkit-transition-duration:0.4s;-webkit-transition-property:background-color color}.swPage > li.lccn > a.lccn:hover,a.lccn:hover{background-color:#F76A6A;color:#000;text-shadow:rgba(0,0,0,0.1);border-right:1px solid #CE0A0A;border-bottom:1px solid #CE0A0A;-webkit-transition-duration:0.4s;-webkit-transition-property:background-color color}.swPage > li.lcc > a.lcc:hover,a.lcc:hover{background-color:#24B6BD;color:#fff;text-shadow:#209FA6 0px 1px 0px;border-right:1px solid #209FA6;border-bottom:1px solid #209FA6;-webkit-transition-duration:0.4s;-webkit-transition-property:background-color color}.swPage > li.lcc > a.lcc:visited,a.lcc:visited{background-color:#B5FFAA;border-right:1px solid #6BEC46;border-bottom:1px solid #6BEC46;color:#1F1F1F;text-shadow:#32A211 0px 1px 0px}.swPage > li.lcc > a.lcc:visited:hover,a.lcc:visited:hover{background-color:#6BEC46;color:#1F1F1F;text-shadow:#32A211 0px 1px 0px;border-right:1px solid #83CB3A;border-bottom:1px solid #83CB3A;-webkit-transition-duration:0.4s;-webkit-transition-property:background-color color}.clear{clear:both}.container{width:607px;padding:5px;margin:10px auto}ul.tabs{margin:0;padding:0;float:left;list-style:none;height:32px;border-bottom:1px solid #E8E8E8;border-left:1px solid #E8E8E8;width:100%;margin-top:-7px}ul.subtabs{margin:0;margin-top:-18px;padding:0;float:right;list-style:none;height:17px;margin-bottom:2px;border-left:1px solid #e8e8e8;margin-left:1px;width:100%}ul.tabs li{float:left;margin:0;padding:0;height:31px;line-height:31px;border:1px solid #E8E8E8;border-left:none;margin-bottom:-1px;background:#e0e0e0;overflow:hidden;position:relative;background-image:url(http://animevision.org/img/pt.jpg);background-position:center}ul.subtabs li{float:left;margin:0;padding:0;height:17px;line-height:17px;border:1px solid #e8e8e8;border-left:none;margin-bottom:-1px;background:#f8f8f8;overflow:hidden;position:relative;background-image:url(http://animevision.org/img/spt.jpg);background-position:0 -23px}ul.tabs li a{text-decoration:none;color:#000;display:block;font-size:13px;padding:0 20px;border:1px solid #f8f8f8;outline:none}ul.subtabs li a{text-decoration:none;color:#000;display:block;font-size:11px;padding:0 30px;border:1px solid #f8f8f8;text-shadow:#CCC 0px 1px 0px;outline:none}ul.tabs li a:hover{background:#eaeaea;background-image:url(http://animevision.org/img/pt.jpg);background-position:top}ul.subtabs li a:hover{background:#f8f8f8;text-shadow:none;background-image:url(http://animevision.org/img/spt.jpg);background-position:0 23px}html ul.tabs li.active,html ul.tabs li.active a:hover{background:#f8f8f8;border-bottom:1px solid #f8f8f8;background-image:url(http://animevision.org/img/pt.jpg);background-position:bottom}html ul.subtabs li.active,html ul.subtabs li.active a:hover{background:#FFF;border-bottom:1px solid #f8f8f8;text-shadow:none;background-image:url(http://animevision.org/img/spt.jpg);background-position:top}.tab_container{border:1px solid #E8E8E8;border-top:none;clear:both;float:left;height:378px;display:block;background:#f8f8f8;-moz-border-radius-bottomright:7px;-khtml-border-radius-bottomright:7px;-webkit-border-bottom-right-radius:7px;-moz-border-radius-bottomleft:7px;-khtml-border-radius-bottomleft:7px;-webkit-border-bottom-left-radius:7px}.tab_content{padding:20px;font-size:1.2em}.tab_content h2{font-weight:normal;padding-bottom:10px;border-bottom:1px dashed #ddd;font-size:1.8em}.tab_content h3 a{color:#254588}.tab_content img{float:left;margin:0 20px 20px 0;border:1px solid #ddd;padding:5px}.c2{position:absolute;top:86px;left:137px;width:300px;height:250px}.c1{position:absolute;left:118px;top:0px;width:56px;height:14px}.left{background-image:url(http://animevision.org/img/pv.png);display:block;width:16px;height:16px;float:left;margin-top:8px;margin-left:6px}.right{background-image:url(http://animevision.org/img/nx.png);display:block;width:16px;height:16px;float:right;margin-top:8px;margin-right:4px}.ti{float:right;display:block;width:325px;height:24px;margin-top:1px;background-color:hsla(0,0%,0%,0.05);border-radius:3px;text-align:right;font-style:italic;font-size:11px;padding-top:1px;font-family:'Trebuchet MS';-webkit-border-radius:3px;-moz-border-radius:3px}
+#dwn{width:314px;height:34px;border:none;clear:both;margin-top:2px;margin-bottom:2px}
+#dwn > a{width:243px;height:34px;display:block;float:left;background-image:url(http://animevision.org/img/dl.png);background-repeat:no-repeat;background-position:top left}
+#dwn > a:hover{background-position:center left}
+#dwn > a:active{background-position:bottom left}
+#dwn > span{font-family:Trebuchet MS;width:60px;height:27px;display:block;float:left;text-align:center;background-image:url(http://animevision.org/img/dl.png);background-repeat:no-repeat;background-position:top right;padding-left:7px;padding-right:3px;padding-top:7px;letter-spacing:-1px}
+#dwn2{width:314px;height:34px;border:none;clear:both;margin-top:2px;margin-bottom:2px}
+#dwn2 > a{width:243px;height:34px;display:block;float:left;background-image:url(http://animevision.org/img/dl2.png);background-repeat:no-repeat;background-position:top left}
+#dwn2 > a:hover{background-position:center left}
+#dwn2 > a:active{background-position:bottom left}
+#dwn2 > span{font-family:Trebuchet MS;width:60px;height:27px;display:block;float:left;text-align:center;background-image:url(http://animevision.org/img/dl2.png);background-repeat:no-repeat;background-position:top right;padding-left:7px;padding-right:3px;padding-top:7px;letter-spacing:-1px}
+#dwn3{width:314px;height:34px;border:none;clear:both;margin-top:2px;margin-bottom:2px}
+#dwn3 > a{width:243px;height:34px;display:block;float:left;background-image:url(http://animevision.org/img/dl3.png);background-repeat:no-repeat;background-position:top left}
+#dwn3 > a:hover{background-position:center left}
+#dwn3 > a:active{background-position:bottom left}
+#dwn3 > span{font-family:Trebuchet MS;width:60px;height:27px;display:block;float:left;text-align:center;background-image:url(http://animevision.org/img/dl3.png);background-repeat:no-repeat;background-position:top right;padding-left:7px;padding-right:3px;padding-top:7px;letter-spacing:-1px}
+.adspl{display:block;width:344px;height:288px;z-index:999999999;margin-left:auto;margin-right:auto;top:-340px;position:relative;background-image:url(http://animevision.org/img/adpl.png);opacity:0.9}
+#clad{display:block;float:right;width:22px;height:22px;margin-top:1px;margin-right:3px;position:relative}
+#xdxd{width:300px;height:250px;float:left;margin-top:20px;margin-left:18px}
+#cpt{background-image:url(http://animevision.org/img/at.jpg);background-position:center center;padding:5px;border:1px solid #02A0FF;-webkit-border-radius:2px;-moz-border-radius:2px;text-align:center;font-family:Lucida Sans Unicode;color:#fff;text-shadow:0px -1px 0px rgba(0,0,0,0.3);font-weight:bold;font-size:14px;letter-spacing:-1px;margin:2px;width:300px}
+#tb{height:23px;display:block;font-size:0px;background-image:url(http://animevision.org/img/back.png);background-repeat:no-repeat;background-position:top center;margin:8px;text-decoration:none;color:transparent}
+#tb:hover{background-position:bottom center}
+#dsc{padding:10px;padding-right:18px;text-align:justify;width:300px;min-height:185px}
+#dsc > img{padding:1px;border:1px solid #000;margin-right:8px}
+#floro{line-height:18px;text-shadow:0px -1px 0px rgba(0,0,0,0.15);padding:10px;background-color:rgba(0,0,0,0.025);-webkit-border-radius:8px;-moz-border-radius:8px;margin:4px;text-align:justify}
+#floro > a{text-decoration:none;color:#00C40D}
+#floro > a:hover{text-decoration:underline}
+#x{color:rgba(255,255,255,0.9);text-align:right;width:975px;margin-left:auto;margin-right:auto;text-shadow:0px 1px 0px rgba(0,0,0,0.2);font-size:13px;letter-spacing:-1px;padding:8px;background-color:rgba(255,255,255,0.2);-webkit-border-radius:4px;-moz-border-radius:4px;margin-top:5px}.m_m > h1{
+	padding:0;
+	margin:7px;
+	border:0;
+	color:#000000;
+	font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;
+	text-shadow:#CBFFB3 0px 1px 0px;
+	font-size:13px;
+	letter-spacing:-1px
+}.m_m > h1 > a{color:#00C40D;font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;text-shadow:#CBFFB3 0px 1px 0px;font-size:13px;letter-spacing:-1px;text-decoration:none}.m_m > h1 > a:hover{text-decoration:underline}

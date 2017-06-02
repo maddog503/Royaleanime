@@ -1,0 +1,36 @@
+/* Page reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+	margin: 0px;
+	padding: 0px;
+	font-family:Arial, sans-serif;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+img {
+	border: 0px;
+}
+html{
+	background-color:#FFFFFF;
+	font-family:Arial, sans-serif;
+	font-size:13px;
+	text-align:left;
+	color:#3D3D3D;
+	height:100%;
+}
+body{
+	height:100%;
+}
+#wholeContainer{
+	width:1008px;
+	margin:0px auto;
+}
+a {
+	color:#0090C6;
+	outline:none;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}

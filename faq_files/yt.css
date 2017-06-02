@@ -1,0 +1,156 @@
+.trailer-list {
+   padding-left: 15px;
+   padding-top: 10px;
+   /*overflow: hidden;*/
+}
+
+.trailer-entry {
+   float: left;
+   height: 105px;
+   width: 69px;
+   margin-right: 5px;
+}
+
+.trailer-entry img {
+   height: 100px;
+   width: 69px;
+   border: 1px solid #969696;
+}
+
+.trailer-short-title {
+   text-align: left;
+   display: none;
+}
+
+.trailer-short-title a {
+   font-family: Arial,Helvetica,sans-serif;
+   font-size: 10px;
+   overflow: hidden;
+   text-decoration: none;
+   color: #3B5998;
+}
+
+.trailer-facets{
+   display: none;
+}
+
+.smallText {
+   font-family: Arial,Helvetica,sans-serif;
+   text-align: left;
+   font-size: 11px;
+   color: #666666;
+}
+
+.video-release-date {
+   display: block;
+}
+
+.video-view-count {
+   display: block;
+}
+
+.trailer-long-title {
+   display: none;
+}
+
+.video-username {
+   display: none;
+}
+
+.video-description {
+   display: none;
+}
+
+/* TOOLTIP CSS */
+.tooltip {
+	display: none;
+	background:url(/images/tipbk.png);
+	height:163px;
+	padding:20px 20px 5px 20px;
+	width:330px;
+	font-size:11px;
+	color:#fff;
+	z-index: 500;
+}
+
+.tooltip img {
+	display:block;
+	float:left;
+	height:153px;
+}
+
+.tooltip div {
+	float: left;
+	margin-left: 5px;
+	color: #000000;
+	text-align: left;
+	width: 205px;
+	height: 152px;
+	overflow: hidden;
+}
+
+.tooltip div .center {
+	text-align:center;
+}
+
+.hoverZ {
+	z-index: 500;
+	position: relative;
+}
+
+.tooltip table {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* Destacadas CSS */
+
+.videos.pelisDestacadas {
+	overflow: hidden;
+	height: 160x;
+}
+
+.videos.pelisDestacadas  .browse {
+    float: left;
+    display: block;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.videos.pelisDestacadas  .browse.left {
+    margin-left: 5px;
+}
+
+.videos.pelisDestacadas .scroll {
+    position:relative;
+	overflow:hidden;
+	width: 565px;
+	height: 155px;
+    float: left;
+}
+
+.videos.pelisDestacadas .scroll .items {
+    width:20000em;
+	position:absolute;
+}
+
+.videos.pelisDestacadas .scroll  .items .trailer-list {
+    float: left;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.pelisDestacadas .trailer-entry {
+	width: 105px;
+	height: 140px;
+}
+
+.pelisDestacadas .trailer-entry img {
+	width: 105px;
+	height: 140px; 
+}
+
+.pelisDestacadas .tooltip div {
+	width: 320px;
+	padding-top: 5px;
+}

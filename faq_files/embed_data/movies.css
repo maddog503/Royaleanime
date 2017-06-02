@@ -1,0 +1,273 @@
+#body {
+	padding:0 30px 17px;
+	text-align: left;
+}
+
+#body a {
+	font-weight: bold;
+}
+
+#body a:hover {
+	text-decoration: none;
+	color: #FFA500;
+}
+
+.largeBanner {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.description {
+	overflow: hidden;
+	margin-bottom: 5px;
+	padding: 5px;
+	background-color: #EBEBEB;
+}
+
+.description img {
+	float: left;
+	width: 120px;
+	height: 160px;
+	margin-right: 9px;
+}
+
+.description .descText {
+	float: left;
+	width: 805px;
+}
+
+.description h1 {
+	margin-left: 0px;
+}
+
+.fb {
+	margin-left: 25px;
+	float: left;
+}
+
+.g1 {
+    float: right;
+}
+
+.description .plot {
+	float: left;
+	margin: 7px 0px;
+}
+
+.description .plot.large {
+	display: none;
+}
+
+.description table {
+	float: left;
+}
+
+.description table .wide {
+	width: 410px;
+}
+
+.description table .rating {
+	width: 230px;
+}
+
+.description table .rating  a{
+	margin-left: 70px;
+}
+
+.dsub {
+	margin-left: 100px;
+}
+
+.verOnline {
+    width: 640px;
+	text-align: center;
+    margin-left: 143px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.verOnline .anterior {
+    float: left;
+    margin: 0 125px 0 5px;
+    width: 89px;
+}
+
+.verOnline .centro {
+    float: left;
+    margin-right: 135px;
+}
+
+.verOnline .siguiente {
+    float: left;
+}
+
+.verOnline h2 {
+	display: inline;
+}
+
+#mediaspace {
+	width: 640px;
+	height: 360px;
+	background-color: #000000;
+	float: left;
+	margin: 0 0 15px 62px;
+}
+
+#mediaspace #videoBanner {
+	margin: 52px 40px 35px 35px;
+	float: left;
+}
+
+#mediaspace .status {
+	float: left;
+	text-align: center;
+	margin: 10px auto 0;
+	color: #FFFFFF;
+}
+
+#mediaspace .status #fileServer {
+	width: 250px;
+}
+
+#mediaspace .status #fileServer .sel {
+	font-size: 18px;
+	font-weight: bold;
+	padding-right: 20px;
+}
+
+#mediaspace .status #fileServer .server {
+	display: block;
+	float: left;
+	margin: 10px 10px 0 0;
+	width: 110px;
+	cursor: pointer;
+}
+
+#mediaspace .status #radios {
+	clear: both;
+	margin-top: 10px;
+	padding-right: 20px;
+    font-weight: bold;
+}
+
+#mediaspace .status #radios img {
+    margin-bottom: -5px;
+}
+
+#mediaspace .mediaDownload {
+	font-size: 25px;
+    margin-top: 105px;
+    text-align: center;
+}
+
+#mediaspace .mediaDownload div {
+    margin-top: 20px;
+}
+
+#mediaspace #cuenta {
+	font-size: 50px;
+	font-weight: bold;
+	color: #0090C6;
+	float: left;
+	width: 640px;
+	margin-top: 120px;
+	text-align: center;
+	display: none;
+}
+
+#mediaspace #cuenta span {
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.fileError {
+    padding: 1px;
+    text-align: center;
+}
+
+#mediaspace #captchaForm {
+	display: none;
+	text-align: center;
+	margin-top:	90px;
+}
+
+#mediaspace #captchaForm #formText {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#mediaspace #captchaForm #captchaImg {
+  border: medium none;
+  clear: both;
+  height: 95px;
+  margin: 0 auto;
+  width: 325px;
+  background-color: #FFFFFF;
+}
+
+#mediaspace #captchaForm #captchaResponse {
+  display: block;
+  margin: 5px 202px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#mediaspace #captchaForm #submitCaptcha {
+	font-size: 18px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#wait {
+	display: none;
+}
+
+#mediaspace #activateApplet #aA{
+	width: 175px;
+	height: 30px;
+}
+
+.tinyBanner {
+	float: left;
+	width: 120px;
+	height: 240px;
+	margin-left:20px;
+	margin-top:35px;
+}
+
+.fbcomments {
+	margin: 0px 0px 10px 142px;
+	width: 640px;
+}
+
+#reportForm input, #reportForm textarea {
+	margin-bottom: 10px;
+}
+
+#reportForm input.email {
+	width: 255px;
+}
+
+/* Fixed Positioned AddThis Toolbox */            
+.addthis_toolbox.atfixed {
+    margin-top: 50px;
+    margin-left: 37px;
+    float: left;
+    border: 1px solid #eee;
+    padding: 5px 5px 1px;
+    width: 32px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.addthis_toolbox .custom_images a {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.addthis_toolbox .custom_images a img { border: 0; margin: 0 0 1px; opacity: 1.0; }
+.addthis_toolbox .custom_images a:hover img { opacity: 0.75; }
